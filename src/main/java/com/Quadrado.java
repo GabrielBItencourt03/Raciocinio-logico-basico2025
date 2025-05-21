@@ -1,6 +1,6 @@
 package main.java.com;
 
-public class quadrado {
+public class Quadrado {
     public static void main(String[] args) {
         int batata = 100;
         int quadrado = batata * batata;

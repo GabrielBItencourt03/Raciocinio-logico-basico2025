@@ -2,7 +2,7 @@ package main.java.com;
 
 import java.util.Scanner;
 
-public class quadrado1 {
+public class Quadrado1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("digite o priemiro numero: ");

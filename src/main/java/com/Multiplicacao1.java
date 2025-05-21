@@ -2,7 +2,7 @@ package main.java.com;
 
 import java.util.Scanner;
 
-public class multiplicacao1 {
+public class Multiplicacao1 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

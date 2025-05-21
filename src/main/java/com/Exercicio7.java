@@ -2,7 +2,7 @@ package main.java.com;
 
 import java.util.Scanner;
 
-public class exercicio7 {
+public class Exercicio7 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class exercicio7 {
         double sub = primeiroNumero - segundoNumero;
         double quadrado = primeiroNumero / segundoNumero;
         double multi = primeiroNumero * segundoNumero;
-        System.out.println("Resultado da soma: " + soma + " resultado da subtração: " + sub + " resultado da divisão: " + quadrado +  " resultado da multiplicação: " + multi );
+        System.out.println("Resultado da Soma: " + soma + " resultado da subtração: " + sub + " resultado da Divisão: " + quadrado +  " resultado da multiplicação: " + multi );
 
 
 

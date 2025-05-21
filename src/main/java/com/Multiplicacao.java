@@ -1,6 +1,6 @@
 package main.java.com;
 
-public class multiplicacao {
+public class Multiplicacao {
     public static void main(String[] args) {
         double primeiroNumero = 4;
         double segundoNumero = 3;

@@ -2,7 +2,7 @@ package main.java.com;
 
 import java.util.Scanner;
 
-public class divisao1 {
+public class Divisao1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("digite seu primeiro numero: ");
@@ -13,7 +13,7 @@ public class divisao1 {
         if (segundoNumero <= 0 ) {
         System.out.println("imposssivel ");{
              }
-            System.out.println("resultado da divisão é: ");
+            System.out.println("resultado da Divisão é: ");
             System.out.println(primeiroNumero / segundoNumero);
             }
         }
