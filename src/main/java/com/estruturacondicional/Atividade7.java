@@ -15,15 +15,14 @@ public class Atividade7 {
         System.out.println("Digite sua idade: ");
         int idade = scanner.nextInt();
 
-        if (idade <= 10) {
+        if  ((idade >= 6) && (idade <= 10)) {
             System.out.println("Você é infantil");
-        } else if (idade <= 17) {
+        } else if ((idade >=11) && (idade <= 17)) {
             System.out.println("Voce e juvenil");
-        } else {
-            if (idade >= 18) {
+        } else if (idade >= 18) {
                 System.out.println("Voce é adulto");
 
             }
         }
     }
-}
+
