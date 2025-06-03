@@ -9,13 +9,15 @@ public class Atividade11 {
         System.out.println("digite a quantidade de copias que deseja: ");
         int copias = scanner.nextInt();
 
-        if (copias <=10 ) {
-            System.out.println("valor fica: " + copias * 0.10);
-        } else if (copias <=50) {
-            System.out.println("valor fica: " + copias * 0.08 + "R$");
-        } else if (copias >50) {
-            System.out.println("o valor fica: " + copias * 0.05 + "R$");
+        double total = 0.0;
+        if ((copias >= 1) && (copias <= 10)) {
+           total = copias * 0.10;
+        } else if ((copias >=11) && (copias <= 50)) {
+            total = copias * 0.08;
+        } else if (copias > 50) {
+            total = copias * 0.05;
         }
+        System.out.println("valor total: " + total);
     }
 }
 

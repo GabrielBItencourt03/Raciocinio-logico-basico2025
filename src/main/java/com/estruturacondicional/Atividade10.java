@@ -15,7 +15,7 @@ public class Atividade10 {
             System.out.println("Voto opcional");
         } else if (idade <= 60) {
             System.out.println("Voto obrigatorio");
-        } else if (idade > 60) {
+        } else {
             System.out.println("Voto opcional");
         }
     }
