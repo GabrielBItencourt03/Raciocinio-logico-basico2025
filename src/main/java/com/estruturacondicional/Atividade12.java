@@ -12,12 +12,16 @@ public class Atividade12 {
         double n3 = scanner.nextDouble();
 
 
-        if ((n1 > n2) && (n1 > n3)) {
-            System.out.println("primeiro numero é maior que os outros dois.");
-        } else if ((n2 > n1) && (n2 > n3)) {
-            System.out.println("o segundo numero é maior que os outros dois");
-        } else if ((n3 > n1) && (n3 > n2)) {
-            System.out.println("o terceiro numero é maior que os outros dois");
+        if ((n1 == n2) || (n2 == n3) || (n1 == n3)) {
+            System.out.println("numeros iguais não são validos.");
+        } else {
+            if ((n1 > n2) && (n1 > n3)) {
+                System.out.println("o numero maior é: " + n1);
+            } else if ((n2 > n1) && (n2 > n3)) {
+                System.out.println("o numero maior é: " + n2);
+            } else if ((n3 > n1) && (n3 > n2)) {
+                System.out.println("o numero maior é: " + n3);
+            }
         }
     }
 }
