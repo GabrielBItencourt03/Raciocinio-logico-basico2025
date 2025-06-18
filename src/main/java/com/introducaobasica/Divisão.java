@@ -1,4 +1,4 @@
-package main.java.com;
+package main.java.com.introducaobasica;
 
 public class Divisão {
     public static void main(String[] args) {
